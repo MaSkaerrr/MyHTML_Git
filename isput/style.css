@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    color:  #CDCDCD;
+
+}
+section{
+    margin-bottom: 150px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sect{
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.sect.maxtop{
+    background-image:url(./img/start-screen-gradient-background.png);
+}
+.conteiner{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom:60px ;
+    /* margin: 0 40px; */
+   
+}
+.topmenu{
+    top: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    align-items: center;
+    position: relative;
+    margin-bottom: 120px;
+    
+}
+.cozy{
+    
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.spisok{
+    width: 444px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.not_only{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.textblock{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height:  322px;
+    width: 460px;
+}
+.text{
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 57.2px;
+    width: 310px;
+}
+.litteltext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #CDCDCD;
+}
+.bot_ton{
+    color: #292929;
+    background-color: #F1CDB3;
+    padding: 15px 45px;
+    font-size: 17px;
+    line-height: 22.1px;
+    
+
+    font-weight: 400;
+    width: 45% ;
+    border-radius: 100px;
+
+}
+.img_text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.textblock.second{
+    max-width: 430px;
+    height: 380px;
+}
+.text.second{
+    color: #545454;
+    
+    
+}
+.litteltext.second{
+    color: #4C4C4C;
+    line-height: 24px;
+
+}
+.sect.maxmiddle{
+    background-color: #F6F6F6;
+    margin: 0;
+}
+.three_el_colomn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text.therd{
+    text-align: center;
+    width: 400px;
+    height: 90px;
+    line-height:  45.5px;
+    font-size: 35px;
+    color: #545454;
+    margin: 60px;
+    margin-top: 80px;
+}
+.img_botom{
+    display: flex;
+    justify-content: space-between;
+    width: calc( (270px * 3) + (90px * 2) );
+
+}
+.card{
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 435px;
+}
+.normtext{
+    font-size: 20px;
+    color: #545454;
+    line-height: 22.72px;
+
+}
+.bot_ton.card-button{
+    width: 70%;
+    background-color: #FAFAFA;
+    border: 2px solid #F1CDB3
+}
+.bot_ton.maxmiddle{
+    width: calc(171px + (45px * 2));
+    margin:60px ;
+}
+.arrhelp{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+.item{
+    width: 113px;
+    height: 82px;
+    margin-left:120px ;
+    margin-bottom: 55px;
+}
+.cardnum{
+    display:flex;
+    justify-content: space-around;
+    width: 349px;
+    height: 43;
+    border-radius: 9px;
+    padding: 10px 15px;
+    background: #F1CDB3;
+}
+.text.therd.bottom{
+    
+    text-align:left;
+    font-weight: 400;
+    
+    width: 300px;
+    letter-spacing: 6%;
+    color: #545454;
+}
+
+.cradit{
+  
+   
+    /* display: inline-block;  */
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 20px;
+    letter-spacing: 6%; 
+    color: #4b4743; 
+}
+.litteltext.fourth{
+    font-style: italic;
+}
+.sect.bottom{
+    
+    background-image: url(./img/footer-background.png);
+
+}
+.textblock.doggi{
+    height: calc(282px + 80px + 60px);
+   
+}
+.help_this_dog{
+    width: 505px;
+    height: 261px;
+}
+.text.bottom{
+    font-size: 35px;
+    color: #FFFFFF;
+    font-weight: 400;
+
+}
+.bottomblock{
+    width: 278px;
+    height: 234px;
+    display: flex;
+    align-items: st;
+    justify-content: space-between;
+    
+}
+a{
+   font-size: 20px;
+   line-height: 23px;
+   color: #F1CDB3;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   letter-spacing: 0.06em;
+   text-align: center;
+   text-decoration: none;
+   
+
+}
+.eco{
+    width: 40px;
+    height: 32px;
+
+}
+.eco.marker{
+    width: 22px;
+    height: 32px;
+}
+.textblock.center{
+    display: flex;
+    width: 302px;
+    justify-content: space-around;
+    margin: 60px 0 ;
+    height: 234px;
+}
+.footer-puppy{
+    margin-top: 40px ;
+}
